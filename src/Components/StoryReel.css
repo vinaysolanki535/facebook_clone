@@ -1,0 +1,10 @@
+.storyReel {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}

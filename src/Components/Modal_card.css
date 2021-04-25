@@ -1,0 +1,50 @@
+.modal_card {
+  display: flex;
+  flex-direction: column;
+  width: 80vh;
+}
+
+.modal_card > input {
+  height: 30px;
+  padding-bottom: 30px;
+  outline-width: 0;
+  border: none;
+  padding: 5px 20px;
+  margin: 0 10px;
+  border-radius: 999px;
+  background-color: #eff2f5;
+}
+
+.postOrStory {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.modal_card > img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: 'hidden';
+  border: 1px solid lightslategray;
+  width: 50%;
+}
+
+.imgButton {
+  margin-top: 20px;
+}
+
+.modal_card > button {
+  background-color: #2e81f4;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+}
+
+.modal_card > button:hover {
+  background-color: white;
+  color: #2e81f4;
+}
